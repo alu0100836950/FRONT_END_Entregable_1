@@ -50,6 +50,17 @@ Para ellos tenemos que isntalarlo y añadirlo al proyecto ejecutando `npm instal
 Posteriormente habría que incluir la *tarea* al archivo gulpfile.js si no se ha añadido automaticamente.
 
 ## 2. Despliegue de un proyecto de prueba  <a id="i2"></a>
+Para desplegar nuestro proyecto de ejemplo vamos a utilizar **yoman**  que nos creará una estructura ya definida e instalada, *webapp*, (paso que hemos realizado en el primer punto). 
+Ejecutamos `yo webapp` y se nos creará una estructura como la siguiente(*marcada en rojo*):
+
+<img src="img/Estruct_project" alt="Estructura creada con yoman "><img/>
+
+Para visualizar los cambios que vamos realizando en la pagina utilizaremos **gulp**, instalado en el primer paso. Como podemos ver en el fichero *package.json*, en el ámbito *scripts* ya existe un script que se crea automaticamente que se llama **start**.
+<img src="img/script" alt="Script para lanzar el navegador"><img/>
+ Por lo tanto, para que se nos abra un navegador con la página para poder ir visualizando los cambios en tiempo real tendremos que ejecutar el comando `npm start`. 
+ 
+ En este caso se visualizara un ejemplo de una MockUp Landing Page:
+<img src="img/prueba" alt="Imagen probando el servidor para mostrar la pagina HTML"><img/>
 
 ## 3. Resumen de las herramientas instaladas  <a id="i3"></a>
 
