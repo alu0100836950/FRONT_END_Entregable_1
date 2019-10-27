@@ -6,7 +6,7 @@ El objetivo de esta primera práctica es configurar  nuestra maquina en donde va
 ## Índice
 1. [Instalación de paquetes](#i1)
 2. [Despliegue de un proyecto de prueba](#i2)
-3. [Resumen de las herramientas instaladas](#i3)
+3. [Resumen de las herramientas principales utilizada](#i3)
 
 ## 1. Instalación de paquetes  <a id="i1"></a>
 
@@ -65,5 +65,12 @@ Para visualizar los cambios que vamos realizando en la pagina utilizaremos **gul
  
 <img src="img/prueba.png" alt="Imagen probando el servidor para mostrar la pagina HTML"><img/>
 
-## 3. Resumen de las herramientas instaladas  <a id="i3"></a>
+## 3. Resumen de las herramientas principales utilizada  <a id="i3"></a>
 
+
+|      Herramienta  		|  			Finalidad          |
+|-----------------|-------------------------------|
+|*NPM*						|Gestor de paquetes de node     |
+|*yoman*          			|Creador de estructura de ficheros automáticamente				|
+|*git*            			|Controlador de versiones		  	|
+|*gulp*   					|Manipulador de tareas como abrir un navegador para visualizar los cambios, etc.   |
