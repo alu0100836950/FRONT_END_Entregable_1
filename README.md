@@ -56,10 +56,13 @@ Ejecutamos `yo webapp` y se nos creará una estructura como la siguiente(*marcad
 <img src="img/Estruct_project.png" alt="Estructura creada con yoman "><img/>
 
 Para visualizar los cambios que vamos realizando en la pagina utilizaremos **gulp**, instalado en el primer paso. Como podemos ver en el fichero *package.json*, en el ámbito *scripts* ya existe un script que se crea automaticamente que se llama **start**.
+
 <img src="img/script.png" alt="Script para lanzar el navegador"><img/>
+
  Por lo tanto, para que se nos abra un navegador con la página para poder ir visualizando los cambios en tiempo real tendremos que ejecutar el comando `npm start`. 
  
  En este caso se visualizara un ejemplo de una MockUp Landing Page:
+ 
 <img src="img/prueba.png" alt="Imagen probando el servidor para mostrar la pagina HTML"><img/>
 
 ## 3. Resumen de las herramientas instaladas  <a id="i3"></a>
